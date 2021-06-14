@@ -7,7 +7,7 @@ from functools import wraps
 from datetime import datetime
 
 app = Flask(__name__)
-app.config.from_object("config.DevelopmentConfig")
+app.config.from_object("config.ProductionConfig")
 
 
 def require_client_id(api_method):
