@@ -5,7 +5,7 @@ class Config(object):
     UPLOAD_DIR = '/home/archrinto/Pictures/jerawat'
 
 class ProductionConfig(Config):
-    UPLOAD_DIR = '/home/july/storage/skin-form'
+    UPLOAD_DIR = '/home/july/storage/sa-form'
 
 class DevelopmentConfig(Config):
     DEBUG = True
